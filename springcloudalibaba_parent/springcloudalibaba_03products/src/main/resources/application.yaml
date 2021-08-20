@@ -1,0 +1,9 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: PRODUCTS
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

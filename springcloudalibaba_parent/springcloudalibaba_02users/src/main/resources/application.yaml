@@ -1,0 +1,9 @@
+server:
+  port: 8989
+spring:
+  application:
+    name: USERS
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
